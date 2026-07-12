@@ -1,20 +1,4 @@
-/* ==========================================
-   SteamVision Design System v0.1
-   ========================================== */
-
-:root {
-    /* Colors */
-    --sv-bg: #0f1117;
-    --sv-surface: #171b22;
-    --sv-surface-2: #1f2430;
-
-    --sv-accent: #4da3ff;
-    --sv-accent-hover: #69b3ff;
-
-    --sv-text: #f5f7fa;
-    --sv-text-secondary: #b8c0cc;
-
-    /* UI */
-    --sv-radius: 14px;
-    --sv-transition: 180ms ease;
-}
+@import url("./styles/variables.css");
+@import url("./styles/sidebar.css");
+@import url("./styles/topbar.css");
+@import url("./styles/library.css");
